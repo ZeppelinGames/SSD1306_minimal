@@ -33,4 +33,6 @@ ssd1306.printChar('a');
 Check the `example.ino` for a basic starting point
 
 ## Notes  
-`cursorTo(x,y);` uses pages so `x` has a range of `0-127` whereas `y` has a range from `0-7`. Due to paging, using the function `setPixel()` will draw a vertical line with a width of 1px but a height of `128 / pages` (usually 8px).
+`cursorTo(x,y);` uses pages so `x` has a range of `0-127` whereas `y` has a range from `0-7`. Due to paging, using the function `setPixel()` will draw a vertical line with a width of 1px but a height of `128 / pages` (usually 8px).  
+
+Tested on an Attiny85.
